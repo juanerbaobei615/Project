@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="css/cui.css" />
+	<link rel="stylesheet" href="css/lib.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style-rel.css">
+    <link rel="stylesheet" href="css/animate.css">
+</head>
+<body>
+<div id="mobile-menu">
+    <div class="m-hd">
+        <div class="logo">
+            <img src="images/logo.png"  alt="">
+        </div>
+        <div class="icoh">
+            <p><a href="">登录</a> / <a href="">注册</a></p>
+            <a href="javascript:void(0);" class="ico-menu"></a>
+        </div>
+    </div>
+    <ul class="m-nav">
+        <li><a href="">首页</a></li>
+        <li><a href="">关于云栖</a></li>
+        <li><a href="">云栖民宿</a></li>
+        <li><a href="">民宿预定</a></li>
+        <li><a href="">度假酒店</a></li>
+        <li><a href="">会员中心</a></li>
+        <li><a href="">活动掠影</a></li>
+        <li><a href="">联系我们</a></li>
+    </ul>
+</div>
+<ul id="PageMenu" class="sec-tab">
+    <li data-menuanchor="page2" class="active"><a href="#page2">云栖度假<em></em></a></li>
+    <li data-menuanchor="page3"><a href="#page3">品牌文化<em></em></a></li>
+    <li data-menuanchor="page4"><a href="#page4">思者之言<em></em></a></li>
+</ul>
+
+<div id="fullpage">
+    <div class="section header fp-auto-height">
+        <header id="hd2">
+            <div id="hd">
+                <a href="" class="logo">
+                    <img src="images/logo.png" alt="">
+                </a>
+                <div class="hd-right">
+                    <div class="hd-top">
+                        <div class="fx-ico">
+                            <div class="bdsharebuttonbox"><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a></div>
+                            <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                            </script>
+                        </div>
+                        <div class="login">
+                            <a href="">登录 </a><span>/</span>
+                            <a href="">注册</a>
+                        </div>
+                    </div>
+                    <div class="c"></div>
+
+                    <nav id="nav-ul">
+                        <ul>
+                            <li><a href="" class="v1">首页</a><em></em></li>
+                            <li class="on"><a href="" class="v1">关于云栖<em></em></a></li>
+                            <li><a href="" class="v1">云栖民宿</a><em></em></li>
+                            <li><a href="" class="v1">民宿预定</a><em></em></li>
+                            <li><a href="" class="v1">度假酒店</a><em></em></li>
+                            <li><a href="" class="v1">会员中心</a><em></em></li>
+                            <li><a href="" class="v1">活动掠影</a><em></em></li>
+                            <li><a href="" class="v1">联系我们</a><em></em></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="c"></div>
+            </div>
+        </header>
+    </div>
+
+    <div class="section" id="section1">
+        <div class="about-con1">
+            <div class="about-ban animated fadeInUp"  ani="animated fadeInUp" ani-time="100">
+                <div></div>
+            </div>
+            <div class="h40"></div>
+            <div class="wp">
+                <div class="txt-con">
+                    <div class="tit-s1 animated fadeInLeft" ani="animated fadeInLeft" ani-time="300">
+                        <img src="images/about-t0.png" alt="">
+                    </div>
+                    <div class="con-txt animated fadeInRight" ani="animated fadeInRight" ani-time="300">
+                        <div class="txt-n">
+                            <p>栖于云端，会发现，世间呈现的是过往所不曾注意到的美之所在。云栖度假，便是这样一个游历世界的落脚点。在这里，我们可以安放情怀，与自然对话、与生命对话、与文化对话。</p>
+                            <br>
+                            <p>
+                                云栖度假，以旅行复兴文化遗存、以文化印染旅居心境，遴选各具特色的旅游度假区和原生态古村落，通过保护性的旅游开发，自建、复缮、自营民宿，为会员提供“一域一风情”的多元化、深度化的情怀慢游。
+                            </p>
+                            <br>
+                            <p class="p-eng">
+                                Habitat in the cloud, you will find the world is presented in the past I never noticed the beauty lies. Yunqi vacation, traveling the world is such a foothold. Here, we can place feelings, dialogue with nature, life and dialogue, dialogue and culture.
+                            </p>
+                            <br>
+                            <p class="p-eng">
+                                Yunqi vacation, travel to the revival of cultural heritage, cultural dyeing living in mind, the selection of distinctive and original ecological tourist resort ancient villages, through conservation tourism development, self-built, re-repair, self B & B for members "one field a style" diversification, depth of feeling slow travel.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section  se2-about" id="section2">
+        <div class="about-con2">
+            <div class="wp">
+                <div class="txt-top">
+                    <div class="tit-s2"  ani="animated fadeInLeft" ani-time="100">
+                        <img src="images/about-t2.png" alt="">
+                    </div>
+                    <div class="txt-r" ani="animated fadeInRight" ani-time="100">
+                        <div class="txt-pic">
+                            <img src="images/about-t3.png"  alt="">
+                        </div>
+                        <div class="txt-list">
+                            <ul>
+                                <li>
+                                    <img src="images/about-t4.png" alt="">
+                                    <div class="t-p">
+                                        <p>时光传承下，尚未被凡尘侵扰之地，或古风遗存，或墨画桃源……</p>
+                                        <p>我们带着虔敬之心，追求和寻觅抱朴含真的悠悠乡情。</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="images/about-t5.png" alt="">
+                                    <div class="t-p">
+                                        <p>情怀慢游，要经得起细细品味。用心，加上慢慢的打磨，</p>
+                                        <p>我们一点点雕琢文化的折射，只为让情怀润物无声，耐人寻味。</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img src="images/about-t6.png" alt="">
+                                    <div class="t-p">
+                                        <p>古人寻隐者不遇，对现代都市人而言亦不可偶得。</p>
+                                        <p>云栖，为世人辟开了一条悠然隐世、淡泊时光的通道，前往一场跟着心灵走的慢之旅。</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="c"></div>
+            <div class="pic-b">
+                <div class="wp">
+                    <div class="pic"  ani="animated fadeInUp" ani-time="100">
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section" id="section3">
+        <div class="about-con3">
+            <div class="wp">
+                <div class="tit-s3" ani="animated fadeInLeft" ani-time="100">
+                    <img src="images/about-t7.png" alt="">
+                </div>
+
+                <div class="txt-right" ani="animated fadeInRight" ani-time="100">
+                    <div class="txt-con">
+                        <p><b>亲爱的各位朋友：</b></p>
+                        <br>
+                        <p>欢迎来到云栖度假官网！</p>
+                        <br>
+                        <p>在十八大“美丽中国”概念下，旅游业面临新的发展机遇。名宿旅游这种新兴的旅游模式，也顺应时代正在萌芽兴起。</p>
+                        <br>
+                        <p>借助这股东风，云栖度假着力发展名宿项目。我们寻找尚未发掘的村落，以“共生共荣”的标准，结合现代设计理念对于村落进行保护性开发，并结合不同村落各自特色的风景、美食特点，为游客打造一体化的特色名宿旅游体验。目前，我们的项目已遍布江西、浙江、广东、海南多个省市。</p>
+                        <br>
+                        <p>哲人说：“昨天的梦想，可以是今天的希望，而且还可以成为明天的现实。”云栖人怀揣着对于名宿发展的梦想而来，有了今日众多成功的名宿项目案例。这些成功案例将成为云栖旅游日后发展的希望，云栖人将带着这份希望继续努力前进，在不久的未来把它成为现实。</p>
+                        <br>
+                        <p>感谢社会各界人士对于云栖度假一如既往的支持！</p>
+                        <h3><span>董事长：</span>
+                            <img src="images/about-t8.png" alt="">
+                        </h3>
+                    </div>
+                    <div class="pic">
+                        <img src="images/about-pic3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </div>
+
+    <div class="section footer fp-auto-height" >
+        <footer id="fd">
+            <div class="wp">
+                <div class="fd-ul">
+                    <ul>
+                        <li>
+                            <h3>关于云栖<em>\</em></h3>
+                            <span><a href="">云栖度假</a></span>
+                            <span><a href="">品牌文化</a></span>
+                            <span><a href="">思者之言</a></span>
+                        </li>
+                        <li>
+                            <h3>云栖民宿<em>\</em></h3>
+                            <span><a href="">基地布局</a></span>
+                            <span><a href="">云栖名宿</a></span>
+                        </li>
+                        <li>
+                            <h3>民宿预定<em>\</em></h3>
+                        </li>
+                        <li>
+                            <h3>度假酒店<em>\</em></h3>
+                        </li>
+                        <li>
+                            <h3>会员中心<em>\</em></h3>
+                            <span><a href="">会员权益</a></span>
+                            <span><a href="">我的账户</a></span>
+                        </li>
+                        <li>
+                            <h3>活动掠影<em>\</em></h3>
+                        </li>
+                        <li>
+                            <h3>联系我们</h3>
+                            <span><a href="">联系方式</a></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="fd-right">
+                    <div class="ma">
+                        <img src="images/fd-ma.jpg" alt="">
+                    </div>
+                    <div class="phone">
+                        <span>全国客服热线</span>
+                        <h2>400-068-7200</h2>
+                    </div>
+                    <div class="c"></div>
+                    <p>©2016云栖旅游 All rights reserved. Powered by:blue ocean</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    
+</div>
+
+<script src="js/jquery.js"></script>
+<script src="js/lib.js"></script>
+<link rel="stylesheet" href="css/jquery.fullPage.css">
+<script src="js/jquery.fullPage.min.js"></script>
+
+<!-- <script src="js/jquery.easings.min.js"></script> -->
+<script>
+function opa(){
+    var winW = $(window).width();
+    if(winW > 960){
+        $('[ani*="animated"]').css('opacity',0);
+    }else{
+        $('[ani*="animated"]').css('opacity',1);
+    }
+}
+opa();
+
+$(document).ready(function($) {
+    $('#fullpage').fullpage({
+        'menu': '#PageMenu',
+        'anchors': ['page1', 'page2', 'page3', 'page4', 'page5'],
+        'fixedElements': '#hd1',
+        'paddingTop':'80px',
+        'navigation': true,
+        easingcss3: 'ease',
+        afterLoad: function(anchorLink, index){
+            var winW = $(window).width();
+            if(winW > 960){
+                if(index == 5 || index == 1){
+                    $('[ani*="animated"]').css('opacity',0);
+                }else{
+                    $(".section").eq(index-1).find('[ani*="animated"]').each(function(){
+                        var _this = $(this);
+                        var _class = $(this).attr('ani');
+                        var _time = $(this).attr('ani-time');
+                        setTimeout(function(){
+                           _this.stop().addClass(_class);
+                        },_time);
+                    });
+                    $(".section").not(".active").find('[ani*="animated"]').each(function(){
+                        var _this = $(this);
+                        var _class = $(this).attr('ani');
+                        _this.removeClass(_class);
+                        _this.css('opacity',0);
+                    });
+                }
+            }
+        }
+    });
+
+
+    $(window).resize(function(){
+        autoScrolling();
+    });
+
+    function autoScrolling(){
+        var $ww = $(window).width();
+        if($ww > 767){
+            $.fn.fullpage.setAutoScrolling(true);
+            $.fn.fullpage.setAllowScrolling(true);
+        } else {
+            $.fn.fullpage.setAutoScrolling(false);
+            $.fn.fullpage.setAllowScrolling(false);
+            $.fn.fullpage.destroy();
+        }
+    }
+    autoScrolling();
+});
+</script>
+
+</body>
+</html>

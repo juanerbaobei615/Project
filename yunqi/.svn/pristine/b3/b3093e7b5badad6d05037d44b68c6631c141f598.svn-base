@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>首页</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+	<meta name="keywords" content="" />
+	<meta name="description" content="" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="css/cui.css" />
+	<link rel="stylesheet" href="css/lib.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/style-rel.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <header id="hd2">
+        <div id="hd">
+            <a href="" class="logo">
+                <img src="images/logo.png" alt="">
+            </a>
+            <div class="hd-right">
+                <div class="hd-top">
+                    <div class="fx-ico">
+                        <div class="bdsharebuttonbox"><a href="#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="#" class="bds_sqq" data-cmd="sqq" title="分享到QQ好友"></a></div>
+                        <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"2","bdSize":"32"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                        </script>
+                    </div>
+                    <div class="login">
+                        <a href="">登录 </a><span>/</span>
+                        <a href="">注册</a>
+                    </div>
+                </div>
+                <div class="c"></div>
+
+                <nav id="nav-ul">
+                    <ul>
+                        <li><a href="" class="v1">首页</a><em></em></li>
+                        <li class="on"><a href="" class="v1">关于云栖<em></em></a></li>
+                        <li><a href="" class="v1">云栖民宿</a><em></em></li>
+                        <li><a href="" class="v1">民宿预定</a><em></em></li>
+                        <li><a href="" class="v1">度假酒店</a><em></em></li>
+                        <li><a href="" class="v1">会员中心</a><em></em></li>
+                        <li><a href="" class="v1">活动掠影</a><em></em></li>
+                        <li><a href="" class="v1">联系我们</a><em></em></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="c"></div>
+        </div>
+    </header>
+    <div id="mobile-menu">
+        <div class="m-hd">
+            <div class="logo">
+                <img src="images/logo.png"  alt="">
+            </div>
+            <div class="icoh">
+                <p><a href="">登录</a> / <a href="">注册</a></p>
+                <a href="javascript:void(0);" class="ico-menu"></a>
+            </div>
+        </div>
+        <ul class="m-nav">
+            <li><a href="">首页</a></li>
+            <li><a href="">关于云栖</a></li>
+            <li><a href="">云栖民宿</a></li>
+            <li><a href="">民宿预定</a></li>
+            <li><a href="">度假酒店</a></li>
+            <li><a href="">会员中心</a></li>
+            <li><a href="">活动掠影</a></li>
+            <li><a href="">联系我们</a></li>
+        </ul>
+    </div>
+
+    <!-- 头部 end -->
+
+    
+    <!-- 内容 -->
+    <div id="bd">
+            <!-- 二级导航 -->
+            <div class="sec-tab">
+                <ul>
+                    <li><a href="javascript:;">基地布局 <em></em></a></li>
+                    <li class="on"><a href="javascript:;">云栖民宿 <em></em></a></li>
+                </ul>
+            </div>
+            <!-- 二级导航 end -->
+            <!-- 内页banner -->
+            <div class="yz-banner">
+                <div class="yz-banner-for">
+                    <ul>
+                        <li style="background-image:url(images/yz-banner1.jpg);">
+                            <a href=""></a>
+                        </li>
+                        <li style="background-image:url(images/yz-banner2.jpg);">
+                            <a href=""></a>
+                        </li>
+                        <li style="background-image:url(images/yz-banner1.jpg);">
+                            <a href=""></a>
+                        </li>
+                        <li style="background-image:url(images/yz-banner2.jpg);">
+                            <a href=""></a>
+                        </li>
+                        <li style="background-image:url(images/yz-banner1.jpg);">
+                            <a href=""></a>
+                        </li>
+                        <li style="background-image:url(images/yz-banner2.jpg);">
+                            <a href=""></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="yz-banner-nav">
+                    <ul>
+                        <li>
+                            <div class="img">
+                                <img src="images/yz-for-banner1.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <img src="images/yz-for-banner2.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <img src="images/yz-for-banner1.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <img src="images/yz-for-banner2.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <img src="images/yz-for-banner1.jpg" alt="">
+                            </div>
+                        </li>
+                        <li>
+                            <div class="img">
+                                <img src="images/yz-for-banner2.jpg" alt="">
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 内页banner end -->
+            <div class="yz-imgtxt1">
+                <div class="yz-tit1">
+                    <h5>云栖民宿</h5>
+                    <em></em>
+                    <h4><img src="images/yz-tit1-ico1.jpg" alt=""></h4>
+                </div>
+                <div class="yz-ul-list1">
+                    <ul>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li1" style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <span>江西龙虎山</span>
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic3.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li1" style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <span>江西龙虎山</span>
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li1" style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <span>江西龙虎山</span>
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li1" style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <span>江西龙虎山</span>
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li1" style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <span>江西龙虎山</span>
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="li1" style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <span>江西龙虎山</span>
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li style="background-image:url(images/yz-list1-pic3.jpg);">
+                            <div class="zz"></div>
+                            <div class="img">
+                                <img src="images/yz-list1-pic2.png" alt="">
+                            </div>
+                            <div class="box">
+                                <div class="txt">
+                                    <h5>
+                                        <b>桂芳轩</b>
+                                        <div class="r">
+                                            <a href="" class="yuding"><span>在线预订</span></a>
+                                            <a href="" class="zan"><span>1188</span></a>
+                                        </div>
+                                    </h5>
+                                    <h4>江南“乔家大院”</h4>
+                                    <p>
+                                        建于1738年的灵岩古庄园，位于金华浦江的西北山区虞宅乡新光村，是一个充满浙商三百年传奇经历和故事的江南大院，是一座汇聚杭派与徽派建筑精品的古建筑博物馆，是一处感悟天、地、人和的精神家园。现存16幢160余间古建筑......
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="c"></div>
+            </div>
+            <div class="yz-more" style="background-image:url(images/yz-more-bj.jpg);">
+                <a href="javascript:void(0);"><img src="images/yz-more.png" alt=""></a>
+            </div>
+    </div>
+    <!-- 内容 end -->
+
+    <!-- 底部 -->
+    <footer id="fd">
+        <div class="wp">
+            <div class="fd-ul">
+                <ul>
+                    <li>
+                        <h3>关于云栖<em>\</em></h3>
+                        <span><a href="">云栖度假</a></span>
+                        <span><a href="">品牌文化</a></span>
+                        <span><a href="">思者之言</a></span>
+                    </li>
+                    <li>
+                        <h3>云栖民宿<em>\</em></h3>
+                        <span><a href="">基地布局</a></span>
+                        <span><a href="">云栖名宿</a></span>
+                    </li>
+                    <li>
+                        <h3>民宿预定<em>\</em></h3>
+                    </li>
+                    <li>
+                        <h3>度假酒店<em>\</em></h3>
+                    </li>
+                    <li>
+                        <h3>会员中心<em>\</em></h3>
+                        <span><a href="">会员权益</a></span>
+                        <span><a href="">我的账户</a></span>
+                    </li>
+                    <li>
+                        <h3>活动掠影<em>\</em></h3>
+                    </li>
+                    <li>
+                        <h3>联系我们</h3>
+                        <span><a href="">联系方式</a></span>
+                    </li>
+                </ul>
+            </div>
+            <div class="fd-right">
+                <div class="ma">
+                    <img src="images/fd-ma.jpg" alt="">
+                </div>
+                <div class="phone">
+                    <span>全国客服热线</span>
+                    <h2>400-068-7200</h2>
+                </div>
+                <div class="c"></div>
+                <p>©2016云栖旅游 All rights reserved. Powered by:blue ocean</p>
+            </div>
+        </div>
+    </footer>
+    <!-- 底部 end -->
+	<script src="js/jquery.js"></script>
+	<script src="js/lib.js"></script>
+	<link rel="stylesheet" href="css/slick.css">
+	<script src="js/slick.min.js"></script>
+
+    <script>
+        //  内页banner
+        $('.yz-banner-for ul').slick({
+            pauseOnHover:false,
+            speed: 2000,
+            autoplay: true,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.yz-banner-nav ul'
+            });
+        $('.yz-banner-nav ul').slick({
+            slidesToShow: 6,
+            asNavFor: '.yz-banner-for ul',
+            dots:false,
+            focusOnSelect: true,
+            responsive: [
+                {
+                    breakpoint: 1120,
+                    settings: {
+                    slidesToShow: 4,
+                    slidesToScroll: 1,
+                    arrows:false,
+                  }
+                },
+                {
+                    breakpoint:767,
+                    settings: {
+                    slidesToShow:3,
+                    slidesToScroll: 1,
+                    arrows:false,
+                  }
+                },
+                {
+                    breakpoint:479,
+                    settings: {
+                    slidesToShow:2,
+                    slidesToScroll: 1,
+                    arrows:false,
+                  }
+                }
+              ]
+        });
+
+        // 点击加载更多
+        (function() {
+            var items = $(".yz-ul-list1 li");
+            var numPage = 6;
+            var numAdd = 3;
+            items.slice(numPage).hide();
+            $(".yz-more a").click(function() {
+                if (!items.is(':hidden')) {
+                    alert("已经是最后一页了！")
+                }
+                items.slice(numPage, numPage + numAdd).fadeIn();
+                numPage += numAdd;
+            });
+        })();
+    </script>
+</body>
+</html>

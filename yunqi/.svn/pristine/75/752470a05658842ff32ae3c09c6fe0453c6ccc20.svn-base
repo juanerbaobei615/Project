@@ -1,0 +1,10 @@
+﻿$(document).ready(function($) {	
+	$('.ico-menu').click(function(e){            
+        $('.m-nav').stop().slideToggle(400);
+        e.stopPropagation();
+    });
+
+    
+
+
+});

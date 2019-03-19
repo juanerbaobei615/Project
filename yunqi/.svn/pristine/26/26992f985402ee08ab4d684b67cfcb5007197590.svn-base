@@ -1,0 +1,138 @@
+/*3民宿预订-2预订成功*/
+.mht-succ{margin-bottom: 45px;}
+.mht-succ .tit{text-align:right;max-width:450px;margin: 0 auto;padding-top: 36px;}
+
+.mht-succ .tit h3{font-size: 30px;color: #b9875f;background: url(../images/succ-i1.png) no-repeat left center;}
+.mht-succ .txt h4{font-size: 24px;color: #b9875f;border-bottom: 1px solid #dcdcdc;padding-left:5px;padding-bottom: 8px;
+    margin-bottom:13px; margin-top:22px;
+}
+.mht-succ .txt p{font-size: 18px;color: #555;}
+.mht-succ .txt p span{color: #9a9a9a;line-height:40px;}
+.mht-succ .txt p a{display: inline-block;font-size: 24px;color: #fff;background-color: #b9875f;padding:7px 135px;
+    margin-top: 3px;margin-bottom: 7px;
+}
+.mht-succ .txt p span b{font-weight: normal;color: #b9875f;}
+/*3民宿预订-2支付*/
+.mht-pay{margin-top: 60px;padding-bottom: 170px;}
+.mht-pay .pay-rem{overflow: hidden;background-color: #f5f5f5;text-align: center;margin-bottom: 45px;}
+.mht-pay .pay-rem p{font-size: 18px;color: #b9875f;line-height: 60px;}
+.mht-pay .pay-rem p img{vertical-align: middle;}
+.mht-pay .pay-cen{width: 480px;margin: 0 auto;}
+.mht-pay .pay-cen p{font-size: 18px;color: #555;line-height:60px;}
+.mht-pay .pay-cen p span{float: left;}
+.mht-pay .pay-cen p em{display: inline-block;font-size: 30px;color: #b9875f;float: left;margin-left:8px;}
+.mht-pay .pay-cen p .cz{float: right;background-color: #b9875f;font-size: 16px;color: #fff;padding: 0 20px;line-height:34px;
+    margin-top: 13px;
+}
+.mht-pay .pay-cen p input{padding: 0 10px;margin: 0 5px;border: 1px solid #dcdcdc;}
+.mht-pay .pay-cen p .inp1{width: 300px;height: 40px;font-size: 18px;color: #555;}
+.mht-pay .pay-cen p .inp2{width: 195px;height: 50px;font-size: 14px;color: #a9a9a9;}
+.mht-pay .pay-cen p .yzm{background-color: #c2b0a3;color: #fff;font-size: 12px;padding:17px 25px;}
+.mht-pay .pay-cen p .yzm:hover{background-color: #b9875f;}
+.mht-pay .pay-cen .zf{text-align: center;margin-top: 45px;}
+.mht-pay .pay-cen .zf a{background-color: #b9875f;font-size: 24px;color: #fff;padding: 10px 155px;}
+
+
+/*3民宿预订-1预定信息*/
+.mht-infor .tit{border-bottom: 1px solid #dcdcdc;margin-top:35px;margin-bottom: 30px;}
+.mht-infor .tit h3{color: #b9875f;font-size: 24px;padding-left: 5px;padding-bottom:6px;}
+.mht-infor .txt p{font-size: 18px;color: #555; padding-left: 105px;line-height:65px;}
+.mht-infor .txt p em{display: inline-block;width: 75px;text-align: center;}
+.mht-infor .txt p input{margin: 0 5px;padding: 0 10px;}
+.mht-infor .txt p .t-inp{width: 280px;height: 40px;font-size: 18px;color: #555;border: 1px solid #dcdcdc;
+    background: url(../images/date-i1.png) no-repeat right 5px center; 
+}
+.mht-infor .txt p select{width: 280px;height: 40px;border: 1px solid #dcdcdc;font-size: 18px;color: #555;margin-left: 5px;
+    background: url(../images/xxll.png) no-repeat right 13px center;
+}
+.mht-infor .txt p b{font-size: 40px;color: #b9875f;font-weight: normal;}
+
+.mht-infor .txt p span{color: #9a9a9a;}
+.mht-infor .txt p .span3{color: #555;}
+.mht-infor .txt p .cz{display: inline-block;background-color: #b9875f;font-size: 16px;color: #fff;padding: 0 33px;
+    line-height: 30px;vertical-align:18%;
+}
+.mht-infor .txt p .inp2{width: 280px;height: 40px;font-size: 18px;color: #555;border: 1px solid #dcdcdc;}
+.mht-infor .tab1{border: 1px solid #eee;width: 100%;}
+.mht-infor .tab1 tr{height: 43px;}
+.mht-infor .tab1 .tr1 td{background-color: #f5f5f5;font-size: 14px;color: #000;}
+.mht-infor .tab1 .tr1 .td0{width: 5%;}
+.mht-infor .tab1 .tr1 .td1{width: 14.75%;}
+.mht-infor .tab1 .tr1 .td2{width: 22%;}
+.mht-infor .tab1 .tr1 .td4{width: 16%;}
+.mht-infor .tab1 .tr1 .td5{width: 11%;  }
+.mht-infor .tab1 .tr2{font-size: 14px;color: #555;}
+.mht-infor .txt2{margin-bottom:35px;}
+.mht-infor .txt2 .p1{border-bottom: 1px dashed #eee;border-top:  1px dashed #eee;margin-top: 30px;}
+.mht-infor .txt2 p{font-size: 14px;color: #555;text-align: right;height: 60px;line-height:70px;}
+.mht-infor .txt2 p em{display: inline-block;width: 60px;text-align: left;}
+.mht-infor .txt2 p span{display: inline-block;width: 100px;text-align: right;}
+.mht-infor .txt2 .p1 span b{font-size:18px;}
+.mht-infor .txt2 .p2{margin-bottom: 15px;}
+.mht-infor .txt2 .p2 span b{font-size: 40px;font-weight: normal;color: #b9875f;}
+.mht-infor .txt2 p a{background-color: #b9875f;font-size: 22px;color: #fff;
+    padding:10px 135px;
+}
+
+/*3民宿预订*/
+.mht-rese .tit{text-align: center;margin-top: 35px;margin-bottom: 40px;}
+.mht-rese .tit h3{font-size: 30px;color: #000;margin-bottom: 10px;}
+.mht-rese .ul-rese{}
+.mht-rese .ul-rese li{border: 1px solid #eee;overflow: hidden; margin-bottom: 30px;}
+.mht-rese .ul-rese li .rese-l{width: 53.33%;float: left;}
+.mht-rese .ban{overflow: hidden;}
+.mht-rese .ban .item{width: 100%;}
+.mht-rese .ban .item img{width: 100%;}
+
+.mht-rese .ban .slick-dots{position: absolute;width: 100%;left:92%;bottom:-10px;margin-left: -50px;}
+.mht-rese .ban .slick-dots li{float: left;margin-right: 10px; border: none;}
+
+.mht-rese .ban .slick-dots button{outline:0;border: 0;font-size: 0;width: 15px;width: 15px;height: 15px;
+    background: #fff;margin-right: 7px;cursor: pointer;border-radius:50%;border:2px solid #fff;
+    -webkit-appearance: none;       
+    -moz-appearance: none;
+    appearance: none;}
+.mht-rese .ban .slick-dots .slick-active button{background:none;
+    filter:alpha(opacity=50); /*IE滤镜，透明度50%*/
+    -moz-opacity:0.5; /*Firefox私有，透明度50%*/
+    opacity:0.5;/*其他，透明度50%*/
+
+}
+.mht-rese .ban .slick-dots  button:hover{background:none;}
+.mht-rese .rese-r{overflow: hidden;padding:25px 20px 20px 20px;}
+.mht-rese .rese-r h4{color:#555;font-size: 24px;float: left;padding-left: 20px;}
+.mht-rese .rese-r span{padding-right: 20px;}
+.mht-rese .rese-r .span1{display: inline-block;float: right;background: url(../images/rese-i1.png) no-repeat left center;
+    padding-left:30px;margin-top:-16px;font-size: 16px;color: #555;
+}
+.mht-rese .rese-r .span1 em{font-size: 40px;color: #b9875f;}
+.mht-rese .rese-r p{font-size: 16px;color: #555;background: url(../images/rese-i2.png)no-repeat left center;
+    padding-left:20px;line-height: 35px;margin-left: 20px;
+}
+.mht-rese .rese-r .span2{display: inline-block;float: right;font-size: 16px;color: #555;margin-top: -25px;}
+.mht-rese .rese-r .span2 em{font-size: 40px;color: #c2b0a3;}
+.mht-rese .rese-r a{display: inline-block;background-color: #b9875f;padding:5px 30px;font-size: 14px;color: #fff;
+    border-radius:15px;margin-top: 5px;margin-left: 20px;
+}
+.mht-rese .rese-r .ser{background-color: #f5f5f5;overflow: hidden;margin-top: 70px;padding:10px 64px;}
+.mht-rese .rese-r .ser li{float: left;border: none;font-size: 14px;color: #000;margin-left: 30px;margin-bottom: 0;}
+.mht-rese .rese-r .ser li:first-child{margin-left: 0;}
+.mht-rese .rese-r .ser li img{vertical-align: middle;margin-right: 10px;}
+.mht-rese .rese-r .ser .no{color: #c4c4c4;}
+.mht-rese .tab2{border: 1px solid #eee;width: 100%;}
+.mht-rese .tab2 .tr1{background-color: #f5f5f5;height: 45px;border: none;}
+.mht-rese .tab2 .tr1 td{color: #000;}
+.mht-rese .tab2 .tr1 .td3{width: 10%;}
+.mht-rese .tab2 tr .td0{width:3%;}
+.mht-rese .tab2 tr .td6{text-align: center;}
+.mht-rese .tab2 tr{height: 66px;border-bottom:1px dashed #eee;}
+.mht-rese .tab2 tr td{font-size: 14px;color: #555;}
+.mht-rese .tab2 tr td em{font-size: 20px;color: #b9875f;}
+.mht-rese .tab2 tr td span{font-size: 20px;color: #c2b0a3;}
+.mht-rese .tab2 tr td .yd{background: url(../images/tab2-i1.png) #c2b0a3 no-repeat right 14px center;padding:5px 25px;color:#fff;}
+.mht-rese .tab2 tr td .yd:hover{background: url(../images/tab2-i1.png) #b9875f no-repeat right 14px center;}
+.rese-more a{display: inline-block;background: url(../images/rese-m.jpg);width: 100%;height: 102px;text-align: center;
+    line-height: 120px;
+}
+
+

@@ -1,0 +1,488 @@
+﻿/*4_1会员中心-会员权益*/
+#vip-ban{
+    width: 100%;
+    padding-top:21%;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.vip-bg{
+    background: #f2efe5;
+}
+.vip-tit{
+    float: left;
+    width: 25%;
+    margin-top: -27px;
+}
+.vip-txt{
+    float:right;
+    width: 75%;
+}
+.vip-txt .vip-pad{
+    padding: 27px 30px;
+}
+.vip-txt h5{
+    font-size: 18px;
+    color:#a96b3a;
+    font-weight: normal;
+    margin-bottom: 30px;
+} 
+.vip-txt  p{
+    font-size: 14px;
+    color:#000;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.vip-txt span{
+    float: right;
+    display: block;
+    margin: 28px 0;
+}
+
+/*4度假酒店*/
+.jd-tit-bg{
+    background: #f5f2e9;
+    padding-top: 25px;
+}
+.jd-txt{
+    padding: 30px 0;
+    line-height: 35px;
+    text-align: center;
+    font-size: 16px;
+}
+.ul-jd li{
+    width: 100%;
+  /*  height: 300px;*/
+    overflow: hidden;    
+    position: relative;    
+}
+.ul-jd li .bg{
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+.ul-jd li .bg div{height: 300px;}
+.ul-jd li:hover .bg{
+    -o-transform:scale(1.15);
+    -ms-transform:scale(1.15);
+    -moz-transform:scale(1.15);
+    -webkit-transform:scale(1.15);
+    transform:scale(1.15);
+}
+.ul-jd li .bg{
+    -o-transition:3s;
+    -ms-transition:3s;
+    -moz-transition:3s;
+    -webkit-transition:3s;
+    transition:3s;
+}
+.ul-jd .on-bg{
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -103px;
+    margin-left: -103px;
+    width: 206px;
+    height: 206px;
+    background: #fff;
+    border-radius: 120px;
+    text-align: center;
+    background: rgba(255,255,255,.7);
+    padding-top: 20px;
+    -o-transition:.3s;
+    -ms-transition:.3s;
+    -moz-transition:.3s;
+    -webkit-transition:.3s;
+    transition:.3s;
+}
+.ul-jd li:hover .on-bg{
+    background: rgba(255,255,255,.9);
+    transition: all 1s ease 0.3s;
+}
+.ul-jd .jd-online{
+    margin-top: 10px;
+}
+.ul-jd .jd-online a{
+    display: inline-block;
+    width: 120px;
+    height: 35px;
+    line-height: 35px;
+    background: url(../images/on-li-ico.png) no-repeat 17px center #8e6141;
+    font-size: 16px;
+    color:#fff;
+    padding-left: 20px;
+}
+.ul-jd li:hover .jd-online a{
+    background:url(../images/on-li-ico2.png) no-repeat 17px center ;
+    background-color: none;
+    color: #8e6141;
+    border: 1px solid #8e6141;
+    -o-transition:1s;
+    -ms-transition:1s;
+    -moz-transition:1s;
+    -webkit-transition:1s;
+    transition:1s;
+}
+/*6活动掠影_详情*/
+.new-bg{
+    background: #eeeeee;
+    padding-top: 38px;
+}
+.new-data{
+    text-align: center;
+    font-size: 16px;
+    color:#555555;
+    padding:20px 0 40px 0;
+}
+.new-data span{
+    border-right:1px solid #d7d7d7;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+.new-data em{
+    display: inline-block;
+    background: url(../images/new-data.png) no-repeat left;
+    padding-left: 30px;
+}
+.new-pad{
+    padding:58px 93px;
+    border-bottom: 1px solid #dcdcdc;
+    overflow: hidden;
+}
+.new-txt{
+    font-size: 14px;
+    color:#555555;
+    line-height: 25px;
+}
+.new-txt p{
+    margin-bottom: 28px;
+}
+
+.new-pic .new-img1{
+    width: 64%;
+}
+.new-pic .new-img2{
+    width: 35%;
+}
+.new-pic .new-img1 img.
+.new-pic .new-img2 img{
+    width: 100%;
+}
+.new-pad-ll{
+    padding: 10px 38px 63px 38px;
+    overflow: hidden;
+    
+}
+.new-pad-ll .page{
+    float:left;
+    font-size: 16px;
+}
+.new-pad-ll .page p{
+    line-height: 30px;
+}
+.new-pad-ll .page a:hover{
+    color:#ad7344;
+}
+.new-pad-ll .return{
+    float:right;
+    width: 135px;
+    height: 63px;
+    line-height: 63px;
+    background: url(../images/return-bg.png) no-repeat;
+    font-size: 14px;
+    padding-left: 15px;
+}
+.new-pad-ll .return a{
+    display: inline-block;
+    background: url(../images/return-ico.png) no-repeat left center;
+    padding-left: 15px;
+    color:#fff;
+}
+.vip-bg{position: relative;z-index: 100;}
+/*5_2会员中心-1会员登录*/
+.vip-login-bg{
+    width: 100%;
+    height: 100%;
+    padding-top:43%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+
+}
+.vip-login{
+    width: 484px;
+    height: 438px;
+    background: #fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    margin-top: -243px;
+    margin-left: -219px;
+    background: rgba(255,255,255,.9);
+}
+.lg-pad{
+    padding: 32px 58px 58px 48px;
+}
+.lg-top{
+    overflow: hidden;
+    margin-bottom: 15px;
+ }
+.lg-top h3{
+    font-size: 24px;
+    color:#555;
+}
+.lg-top .r a{
+    color:#b9875f;
+}
+.lg-form td{
+    width: 370px;
+    height: 48px;
+    border: 1px solid #ddd;
+    line-height: 48px;
+
+}
+.lg-form tr{
+    display: block;
+    margin-bottom: 23px;
+}
+.lg-form .td1 span{
+    float:left;
+    display: inline-block;
+    width: 57px;
+    height: 46px;
+    background: url(../images/lg-ico1.png) no-repeat center center;
+    vertical-align: middle;
+
+}
+.lg-form .td1 .sp1{
+    background: url(../images/lg-ico2.png) no-repeat center center;
+}
+.lg-form .td1 input{
+    width: 295px;
+    height: 38px;
+    border: none;
+    outline: none;
+    background: none;
+    border-left: 1px solid #ddd;
+    padding-left: 13px;
+    font-size: 14px;   
+}
+.join-us input::-webkit-input-placeholder {color:#a9a9a9;}
+.join-us input::-moz-placeholder {color: #a9a9a9; }
+.join-us input::-ms-input-placeholder {color:#a9a9a9;}
+.lg-form .td2{
+    width: 195px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.lg-form .td2 input{
+    border: none;
+    font-size: 14px;
+    background: none;
+    padding-left: 13px;
+}
+
+.lg-form .td3{
+    width: 165px;
+    margin-right: 7px;
+    line-height: 48px;
+}
+.lg-form .td3 em{
+    float: left;
+    width: 110px;
+    height: 46px;
+    display: inline-block;
+    background: url(../images/lg-ico4.png) no-repeat center center;
+
+}
+.lg-form .td3 a{
+    width: 52px;
+    height: 38px;
+    display: inline-block;
+    background: url(../images/lg-ico3.png) no-repeat center center;
+    border-left: 1px solid #ddd;
+    vertical-align: middle;
+}
+.lg-form .td4{
+    width: 50%;
+    border: none;
+    position: relative;
+    padding-left: 15px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.lg-form .td4 input{
+    position: absolute;
+    top:19px;
+    left:0;
+}
+.lg-form .td4 a{
+    float:right;
+   color:#b9875f;
+
+}
+.lg-form .btn{
+    text-align: center;
+    background: #b9875f;
+    
+}
+.lg-form .btn button{
+    width: 370px;
+    height: 45px;
+    line-height: 42px;
+    font-size: 24px;
+    color:#fff;
+    background: none;
+    border: none;
+    font-weight: bold;
+}
+
+/*5_2会员中心-2忘记密码*/
+.vip-pass{
+        width: 990px;
+        height: 540px;
+        background: #fff;
+        position: absolute;
+        top:50%;
+        left:50%;
+        margin-top:-270px;
+        margin-left: -495px;
+        background: rgba(255,255,255,.9);
+}
+.pass-pad{
+    padding: 40px 157px;
+}
+.pass-tit h3{
+    font-size: 24px;
+    color:#555;
+    text-align: center;
+}
+.ul-pass{
+    margin-right: -200px;
+    margin-bottom: 35px;
+    overflow: hidden;
+}
+.ul-pass li{
+    width: 120px;
+    float:left;
+    text-align: center;
+    position: relative;
+    margin-right: 170px;
+}
+.ul-pass .li-pic{
+    width: 75px;
+    height: 75px;
+    line-height: 115px;
+    background: #b9875f;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px auto;
+}
+.ul-pass .li1 .li-pic{
+    background: #dcdcdc;
+}
+.ul-pass .li3 .li-pic{
+    background: #dcdcdc;
+    line-height: 103px;
+}
+.ul-pass .li-txt{
+   font-size: 16px;
+   color:#555;
+}
+.ul-pass .li-line{
+    position: absolute;
+    top:50px;
+    left:135px;
+    width: 132px;
+    height: 2px;
+    background: #f3f3f3;
+
+}
+.pass-ta1{
+    margin: 0 auto;
+}
+.pass-ta1 td{
+    display: inline-block;
+    margin-bottom: 13px;
+}
+.pass-ta1 td input{
+    width: 370px;
+    height: 50px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+    padding-left: 15px;
+    background: none;
+}
+.pass-ta1 span{
+    display: inline-block;
+    width: 100px;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 10px;
+}
+.pass-ta1 .td1 input{
+    width: 197px;
+}
+.pass-ta1 .td2 a{
+    display: inline-block;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    background: #c2b0a3;
+    text-align: center;
+    color:#fff;
+    margin-left: 12px;
+    font-size: 14px;
+}
+.pass-ta1 .td3 input{
+    width: 197px;
+}
+.pass-ta1 .td4{
+    width: 160px;
+    height: 50px;
+    border: 1px solid #ddd;
+    margin-left: 12px;
+} 
+.pass-ta1 .td4 em{
+    display: inline-block;
+    width: 103px;
+    text-align: center;
+    padding-top: 10px;
+   
+}
+.pass-ta1 .td4 a{
+    width: 50px;
+    height: 38px;
+    display: inline-block;
+    background: url(../images/lg-ico3.png) no-repeat center center;
+    border-left: 1px solid #ddd;
+}
+.pass-ta1 button{
+   width: 370px;
+   height: 50px;
+   text-align: center;
+   background: #b9875f;
+   color:#fff;
+   font-size: 24px;
+   margin-top: 8px;
+   border: none;
+}
+/*5_2会员中心-2忘记密码 3*/
+
+.pass-ta1 h3{
+    font-size: 30px;
+    color:#b9875f;
+    margin-bottom: 40px;
+    background: url(../images/pass-cen.png) no-repeat 90px;
+    margin-left: 65px;
+}
+.pass-cen{
+    text-align: center;
+}
+
